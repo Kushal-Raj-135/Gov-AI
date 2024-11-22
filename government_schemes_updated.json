@@ -1,0 +1,293 @@
+[
+    {
+      "scheme_name": "Central Sector Scheme of Scholarship for College Students",
+      "category": "Education",
+      "education_levels": ["Undergraduate", "Postgraduate"],
+      "age_range": [18, 25],
+      "income_max": [0,600000],
+      "description": "Merit-based scholarship for undergraduate students.",
+      "eligibility": "Top-performing Class XII students with family income below ₹8 lakh.",
+      "website": "https://scholarships.gov.in"
+    },
+    {
+      "scheme_name": "Postgraduate Scholarship Scheme for SC/ST Students",
+      "category": "Education",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [22, 35],
+      "income_max": [0,100000],
+      "description": "Scholarship for SC/ST students pursuing postgraduate courses.",
+      "eligibility": "SC/ST students with family income below ₹4 lakh, enrolled in postgraduate programs.",
+      "website": "https://scholarships.gov.in"
+    },
+    {
+      "scheme_name": "National Merit Scholarship",
+      "category": "Education",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [18, 30],
+      "income_max": [0,300000],
+      "description": "Scholarship for top-ranking students in Class XII for higher education.",
+      "eligibility": "Students in the top 1% of their Class XII exams, with family income below ₹6 lakh.",
+      "website": "https://scholarships.gov.in"
+    },
+    {
+      "scheme_name": "National Means-cum-Merit Scholarship Scheme",
+      "category": "Education",
+      "education_level": "Secondary",
+      "age_range": [14, 18],
+      "income_max": [0,300000],
+      "description": "Scholarships for meritorious students from economically weaker sections.",
+      "eligibility": "Students in Class VIII to X with family income below ₹1.5 lakh per annum.",
+      "website": "https://scholarships.gov.in"
+    },
+    {
+      "scheme_name": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)",
+      "category": "Employment",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [18, 60],
+      "income_max": [0,400000],
+      "description": "Ensures employment for at least 100 days per year for rural households.",
+      "eligibility": "Any rural household willing to work for manual labor in government projects.",
+      "website": "https://nrega.nic.in"
+    },
+    {
+      "scheme_name": "Atal Pension Yojana",
+      "category": "Pension",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [18, 60],
+      "income_max": [0,400000],
+      "description": "A pension scheme for workers in the unorganized sector.",
+      "eligibility": "Individuals between 18-40 years, with no formal pension coverage.",
+      "website": "https://www.npscra.nsdl.co.in"
+    },
+    {
+      "scheme_name": "Pradhan Mantri Awas Yojana (PMAY)",
+      "category": "Housing",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [18, 60],
+      "income_max": [0,300000],
+      "description": "Affordable housing for urban and rural poor.",
+      "eligibility": "Families with annual income below ₹6 lakh, looking for a house in urban or rural areas.",
+      "website": "https://pmaymis.gov.in"
+    },
+    {
+      "scheme_name": "Ayushman Bharat",
+      "category": "Healthcare",
+      "education_level": ["Undergraduate", "Postgraduate","Secondary","Others"],
+      "age_range": [0, 100],
+      "income_max": [0,300000],
+      "description": "Health insurance scheme for economically weaker sections.",
+      "eligibility": "Families with an annual income below ₹6 lakh.",
+      "website": "https://pmjay.gov.in"
+    },
+    {
+      "scheme_name": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+      "category": "Financial Inclusion",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [18, 65],
+      "income_max": [0,300000],
+      "description": "Provides access to financial services for the unbanked.",
+      "eligibility": "Indian citizens with no previous access to banking services.",
+      "website": "https://pmjdy.gov.in"
+    },
+    {
+      "scheme_name": "Stand-Up India Scheme",
+      "category": "Entrepreneurship",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [18, 60],
+      "income_max": [0,300000],
+      "description": "Financial assistance for SC/ST and women entrepreneurs.",
+      "eligibility": "SC/ST and women entrepreneurs looking to start their own business.",
+      "website": "https://www.standupmitra.in"
+    },
+    {
+      "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+      "category": "Financial Inclusion",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [18, 65],
+      "income_max": [0,600000],
+      "description": "Provides loans to small businesses and entrepreneurs.",
+      "eligibility": "Any individual with a business idea and no access to formal credit.",
+      "website": "https://www.mudra.org.in"
+    },
+    {
+      "scheme_name": "Swarna Jayanti Shahari Rozgar Yojana (SJSRY)",
+      "category": "Employment",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [18, 45],
+      "income_max": [0,500000],
+      "description": "Self-employment program for urban youth.",
+      "eligibility": "Urban youth between 18-45 years with an income below ₹5 lakh.",
+      "website": "https://urbanindia.nic.in"
+    },
+    {
+      "scheme_name": "National Social Assistance Programme (NSAP)",
+      "category": "Welfare",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [60, 100],
+      "income_max": [0,500000],
+      "description": "Social assistance for the elderly, widows, and persons with disabilities.",
+      "eligibility": "Senior citizens above 60 years with income below ₹1 lakh.",
+      "website": "https://naps.nic.in"
+    },
+    {
+      "scheme_name": "Ujjwala Yojana",
+      "category": "Energy",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [18, 60],
+      "income_max": [0,300000],
+      "description": "Provides free LPG connections to families below the poverty line.",
+      "eligibility": "BPL families and women-headed households.",
+      "website": "https://www.pmujjwalayojana.com"
+    },
+    {
+      "scheme_name": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
+      "category": "Skill Development",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [15, 35],
+      "income_max": [0,300000],
+      "description": "Skill development program for rural youth.",
+      "eligibility": "Rural youth aged 15-35 years with an income below ₹3 lakh.",
+      "website": "https://ddugky.gov.in"
+    },
+    {
+      "scheme_name": "Skill India Mission",
+      "category": "Skill Development",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [18, 45],
+      "income_max": [0,300000],
+      "description": "Comprehensive skill development program.",
+      "eligibility": "Youth aged 18-45 years willing to undergo skill training.",
+      "website": "https://www.skillindia.gov.in"
+    },
+    {
+      "scheme_name": "Beti Bachao Beti Padhao Yojana",
+      "category": "Welfare",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [0, 18],
+      "income_max": [0,300000],
+      "description": "Scheme for the welfare and education of girls.",
+      "eligibility": "Families with daughters below 18 years of age.",
+      "website": "https://wcd.nic.in"
+    },
+    {
+      "scheme_name": "Swachh Bharat Mission",
+      "category": "Sanitation",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [18, 60],
+      "income_max": [0,300000],
+      "description": "Cleanliness drive to ensure sanitation facilities in rural areas.",
+      "eligibility": "Residents in rural areas and cities working on sanitation projects.",
+      "website": "https://swachhbharatmission.gov.in"
+    },
+    {
+      "scheme_name": "Rashtriya Krishi Vikas Yojana (RKVY)",
+      "category": "Agriculture",
+      "education_level": ["Undergraduate", "Postgraduate"],
+      "age_range": [18, 65],
+      "income_max": [0,600000],
+      "description": "Enhancing agricultural productivity and ensuring food security.",
+      "eligibility": "Farmers and agricultural workers.",
+      "website": "https://rkvy.nic.in"
+    },
+
+    {
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture",
+        "education_level": ["Undergraduate", "Postgraduate"],
+        "age_range": [18, 65],
+        "income_max": [0,500000],
+        "description": "Direct income support for farmers.",
+        "eligibility": "All farmers who own agricultural land are eligible.",
+        "website": "https://pmkisan.gov.in"
+    },
+    {
+        "scheme_name": "Mukhyamantri Yuva Swarozgar Yojana",
+        "category": "Entrepreneurship",
+        "education_level": ["Undergraduate", "Postgraduate"],
+        "age_range": [18, 40],
+        "income_max": [0,300000],
+        "description": "Financial assistance for youth to start businesses in Uttar Pradesh.",
+        "eligibility": "Youth aged 18-40 years, willing to start a business.",
+        "website": "https://www.upnrega.in"
+    },
+    {
+        "scheme_name": "National Apprenticeship Promotion Scheme (NAPS)",
+        "category": "Skill Development",
+        "education_level": ["Undergraduate", "Postgraduate","Secondary"],
+        "age_range": [14, 35],
+        "income_max": [0,300000],
+        "description": "Encourages apprenticeship training for youth in various sectors.",
+        "eligibility": "Youth aged 14-35 years, registered with the scheme.",
+        "website": "https://apprenticeship.gov.in"
+    },
+    {
+        "scheme_name": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (PMJAY)",
+        "category": "Healthcare",
+        "education_level": ["Undergraduate", "Postgraduate"],
+        "age_range": [0, 100],
+        "income_max": [0,500000],
+        "description": "Health insurance for economically weaker families.",
+        "eligibility": "Families with an income below ₹5 lakh.",
+        "website": "https://pmjay.gov.in"
+    },
+    {
+        "scheme_name": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)",
+        "category": "Employment",
+        "education_level": ["Undergraduate", "Postgraduate"],
+        "age_range": [18, 60],
+        "income_max": [0,300000],
+        "description": "Guarantees 100 days of wage employment in rural areas.",
+        "eligibility": "Rural households willing to engage in manual labor.",
+        "website": "https://nrega.nic.in"
+    },
+    {
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana",
+        "category": "Energy",
+        "education_level": ["Undergraduate", "Postgraduate"],
+        "age_range": [18, 60],
+        "income_max": [0,300000],
+        "description": "Provides free LPG connections to women from BPL families.",
+        "eligibility": "Women from Below Poverty Line (BPL) families.",
+        "website": "https://www.pmujjwalayojana.com"
+    },
+    {
+        "scheme_name": "Janshree Bima Yojana",
+        "category": "Welfare",
+        "education_level": ["Undergraduate", "Postgraduate"],
+        "age_range": [18, 60],
+        "income_max": [0,300000],
+        "description": "Provides life insurance cover to rural and unorganized sector workers.",
+        "eligibility": "Rural workers, self-employed persons, and low-income individuals.",
+        "website": "https://www.janshreebima.nic.in"
+    },
+    {
+        "scheme_name": "Swachh Bharat Abhiyan",
+        "category": "Sanitation",
+        "education_level": ["Undergraduate", "Postgraduate"],
+        "age_range": [18, 60],
+        "income_max": [0,300000],
+        "description": "Promotes cleanliness and sanitation across the nation.",
+        "eligibility": "Citizens involved in cleanliness activities.",
+        "website": "https://swachhbharatmission.gov.in"
+    },
+    {
+        "scheme_name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+        "category": "Agriculture",
+        "education_level": ["Undergraduate", "Postgraduate"],
+        "age_range": [18, 65],
+        "income_max": [0,400000],
+        "description": "Insurance coverage for farmers' crops.",
+        "eligibility": "Farmers who have taken loans or are growing crops.",
+        "website": "https://pmfby.gov.in"
+    },
+    {
+        "scheme_name": "Beti Bachao Beti Padhao",
+        "category": "Welfare",
+        "education_level": ["Undergraduate", "Postgraduate"],
+        "age_range": [0, 18],
+        "income_max": [0,500000],
+        "description": "A scheme to ensure the safety and education of girls.",
+        "eligibility": "Families with daughters below the age of 18 years.",
+        "website": "https://wcd.nic.in"
+    }
+]
