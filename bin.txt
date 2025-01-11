@@ -1,0 +1,382 @@
+Student@DESKTOP-UO7UP5P MINGW64 /
+$ cd C:
+
+Student@DESKTOP-UO7UP5P MINGW64 /c
+$ ls
+'$Recycle.Bin'/  'Documents and Settings'@   Keil/                   ProgramData/                  Users/         pagefile.sys
+'$WINDOWS.~BT'/   DumpStack.log              Multisim/               Recovery/                     Windows/       software/
+'$WinREAgent'/    DumpStack.log.tmp          PerfLogs/              'SQL Installer'/               Xilinx/        swapfile.sys
+ 3DP/             FileRepository/           'Program Files'/         SWSetup/                      hiberfil.sys
+ Config.Msi/      Intel/                    'Program Files (x86)'/  'System Volume Information'/  'java vs'/
+
+Student@DESKTOP-UO7UP5P MINGW64 /c
+$ mkdir git8
+
+Student@DESKTOP-UO7UP5P MINGW64 /c
+$ cd git8
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git8
+$ mkdir exp8
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git8
+$ rm git8 git
+rm: cannot remove 'git8': No such file or directory
+rm: cannot remove 'git': No such file or directory
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git8
+$ mv git8 git
+mv: cannot stat 'git8': No such file or directory
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git8
+$ cd
+
+Student@DESKTOP-UO7UP5P MINGW64 ~
+$ cd c
+bash: cd: c: No such file or directory
+
+Student@DESKTOP-UO7UP5P MINGW64 ~
+$ cd C:
+
+Student@DESKTOP-UO7UP5P MINGW64 /c
+$ mv git8 git
+
+Student@DESKTOP-UO7UP5P MINGW64 /c
+$ ls
+'$Recycle.Bin'/  'Documents and Settings'@   Keil/                   ProgramData/                  Users/        'java vs'/
+'$WINDOWS.~BT'/   DumpStack.log              Multisim/               Recovery/                     Windows/       pagefile.sys
+'$WinREAgent'/    DumpStack.log.tmp          PerfLogs/              'SQL Installer'/               Xilinx/        software/
+ 3DP/             FileRepository/           'Program Files'/         SWSetup/                      git/           swapfile.sys
+ Config.Msi/      Intel/                    'Program Files (x86)'/  'System Volume Information'/   hiberfil.sys
+
+Student@DESKTOP-UO7UP5P MINGW64 /c
+$ cd git
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git
+$ ls
+exp8/
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git
+$ cd exp8
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8
+$ git init
+Initialized empty Git repository in C:/git/exp8/.git/
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ vi file1.txt
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git add file1.txt
+warning: in the working copy of 'file1.txt', LF will be replaced by CRLF the next time Git touches it
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git add file1.txt file1.txt
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git commit -m "8th exp demo"
+[master (root-commit) 9206c52] 8th exp demo
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file1.txt
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git log
+commit 9206c52a7a23286ef2fa3845d076d75576929dc0 (HEAD -> master)
+Author: manoj <1by23ai076@bmsit.in>
+Date:   Tue Nov 12 11:12:49 2024 +0530
+
+    8th exp demo
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ vi file2.txt
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git add file2.txt file2.txt
+warning: in the working copy of 'file2.txt', LF will be replaced by CRLF the next time Git touches it
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ vi file3.txt
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git commit -m "8th exp2 demo"
+[master c0ad508] 8th exp2 demo
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file2.txt
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git log
+commit c0ad5081507f949ae0176a776fed9b0949ca0068 (HEAD -> master)
+Author: manoj <1by23ai076@bmsit.in>
+Date:   Tue Nov 12 11:18:06 2024 +0530
+
+    8th exp2 demo
+
+commit 9206c52a7a23286ef2fa3845d076d75576929dc0
+Author: manoj <1by23ai076@bmsit.in>
+Date:   Tue Nov 12 11:12:49 2024 +0530
+
+    8th exp demo
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git add file3.txt
+warning: in the working copy of 'file3.txt', LF will be replaced by CRLF the next time Git touches it
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git commit -m "8th exp3 demo"
+[master d635aa2] 8th exp3 demo
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file3.txt
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git log
+commit d635aa2c15dc3b063825f2b801f29ddd84373433 (HEAD -> master)
+Author: manoj <1by23ai076@bmsit.in>
+Date:   Tue Nov 12 11:18:42 2024 +0530
+
+    8th exp3 demo
+
+commit c0ad5081507f949ae0176a776fed9b0949ca0068
+Author: manoj <1by23ai076@bmsit.in>
+Date:   Tue Nov 12 11:18:06 2024 +0530
+
+    8th exp2 demo
+
+commit 9206c52a7a23286ef2fa3845d076d75576929dc0
+Author: manoj <1by23ai076@bmsit.in>
+Date:   Tue Nov 12 11:12:49 2024 +0530
+
+    8th exp demo
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git log --oneline decorate
+fatal: ambiguous argument 'decorate': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git log --oneline --decorate
+d635aa2 (HEAD -> master) 8th exp3 demo
+c0ad508 8th exp2 demo
+9206c52 8th exp demo
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ vi first.c
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git commit -m "c program - variable declaration"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        first.c
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git add first.c
+warning: in the working copy of 'first.c', LF will be replaced by CRLF the next time Git touches it
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git commit -m "c program - variable declaration"
+[master 9095597] c program - variable declaration
+ 1 file changed, 3 insertions(+)
+ create mode 100644 first.c
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ vi first.c
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git add first.c
+warning: in the working copy of 'first.c', LF will be replaced by CRLF the next time Git touches it
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git commit -m "error fixed - semicolon"
+[master 54329ee] error fixed - semicolon
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git show
+commit 54329ee5d1c527166982124255cc37a3f6c187de (HEAD -> master)
+Author: manoj <1by23ai076@bmsit.in>
+Date:   Tue Nov 12 11:24:40 2024 +0530
+
+    error fixed - semicolon
+
+diff --git a/first.c b/first.c
+index 7db6285..d3f4b60 100644
+--- a/first.c
++++ b/first.c
+@@ -1,3 +1,3 @@
+ main(){
+-       int a
++       int a;
+ }
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ vi first.c
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git add first.c
+warning: in the working copy of 'first.c', LF will be replaced by CRLF the next time Git touches it
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git commit -m "printf statement is added"
+[master 536a4c8] printf statement is added
+ 1 file changed, 2 insertions(+)
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git show
+commit 536a4c80f0ff4358be4ca490e76e071d86d673ac (HEAD -> master)
+Author: manoj <1by23ai076@bmsit.in>
+Date:   Tue Nov 12 11:26:38 2024 +0530
+
+    printf statement is added
+
+diff --git a/first.c b/first.c
+index d3f4b60..17b10f4 100644
+--- a/first.c
++++ b/first.c
+@@ -1,3 +1,5 @@
+ main(){
+        int a;
++       printf("enter the value of a");
++       printf(a);
+ }
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git revert 536a4c8
+[master 60fdeec] Revert "printf statement is not required"
+ 1 file changed, 2 deletions(-)
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git log --oneline
+60fdeec (HEAD -> master) Revert "printf statement is not required"
+536a4c8 printf statement is added
+54329ee error fixed - semicolon
+9095597 c program - variable declaration
+d635aa2 8th exp3 demo
+c0ad508 8th exp2 demo
+9206c52 8th exp demo
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git branch
+* master
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git branch feature
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git branch
+  feature
+* master
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (master)
+$ git checkout feature
+Switched to branch 'feature'
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (feature)
+$ vi file4.txt
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (feature)
+$ git file
+git: 'file' is not a git command. See 'git --help'.
+
+The most similar commands are
+        cat-file
+        ls-files
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (feature)
+$ ls
+file1.txt  file2.txt  file3.txt  file4.txt  first.c
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (feature)
+$ git add file4.txt
+warning: in the working copy of 'file4.txt', LF will be replaced by CRLF the next time Git touches it
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (feature)
+$ git commit -m "feature branch commit"
+[feature 4422c75] feature branch commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file4.txt
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (feature)
+$ git log --oneline
+4422c75 (HEAD -> feature) feature branch commit
+60fdeec (master) Revert "printf statement is not required"
+536a4c8 printf statement is added
+54329ee error fixed - semicolon
+9095597 c program - variable declaration
+d635aa2 8th exp3 demo
+c0ad508 8th exp2 demo
+9206c52 8th exp demo
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (feature)
+$ git cherry-pick ^C
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (feature)
+$ git cherry-pick 54329ee
+The previous cherry-pick is now empty, possibly due to conflict resolution.
+If you wish to commit it anyway, use:
+
+    git commit --allow-empty
+
+Otherwise, please use 'git cherry-pick --skip'
+On branch feature
+You are currently cherry-picking commit 54329ee.
+  (all conflicts fixed: run "git cherry-pick --continue")
+  (use "git cherry-pick --skip" to skip this patch)
+  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
+
+nothing to commit, working tree clean
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (feature|CHERRY-PICKING)
+$ git commit --allow-empty
+[feature 57b56d4] error fixed - semicolon ---cherry-picked from feature branch
+ Date: Tue Nov 12 11:24:40 2024 +0530
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (feature)
+$ git cherry-pick 54329ee
+The previous cherry-pick is now empty, possibly due to conflict resolution.
+If you wish to commit it anyway, use:
+
+    git commit --allow-empty
+
+Otherwise, please use 'git cherry-pick --skip'
+On branch feature
+You are currently cherry-picking commit 54329ee.
+  (all conflicts fixed: run "git cherry-pick --continue")
+  (use "git cherry-pick --skip" to skip this patch)
+  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
+
+nothing to commit, working tree clean
+
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (feature|CHERRY-PICKING)
+$ git log --oneline
+57b56d4 (HEAD -> feature) error fixed - semicolon ---cherry-picked from feature branch
+4422c75 feature branch commit
+60fdeec (master) Revert "printf statement is not required"
+536a4c8 printf statement is added
+54329ee error fixed - semicolon
+9095597 c program - variable declaration
+d635aa2 8th exp3 demo
+c0ad508 8th exp2 demo
+9206c52 8th exp demo
+
+\\it shows the commits whn they were dont optional
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (feature)
+$ gitk
+
+\\this shows changes made to a single commit
+Student@DESKTOP-UO7UP5P MINGW64 /c/git/exp8 (feature|CHERRY-PICKING)
+$ git show 9206c52
+commit 9206c52a7a23286ef2fa3845d076d75576929dc0
+Author: manoj <1by23ai076@bmsit.in>
+Date:   Tue Nov 12 11:12:49 2024 +0530
+
+    8th exp demo
+
+diff --git a/file1.txt b/file1.txt
+new file mode 100644
+index 0000000..9b4d1d6
+--- /dev/null
++++ b/file1.txt
+@@ -0,0 +1 @@
++ hi hello who r u
